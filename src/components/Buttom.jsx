@@ -9,7 +9,7 @@ const Buttom = ({setquateRandom, setPhotoRandom}) => {
             setPhotoRandom(getRamdonFromArr(arrPhotos))
     }
   return (
-    <button className="div__button" onClick={handleChangePhrase}>Cambiar galleta</button>
+    <button className="div__button" onClick={handleChangePhrase}>SUERTE</button>
   )
 }
 

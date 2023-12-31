@@ -21,7 +21,7 @@ function App() {
 
   return (
     <div className='div' style={objStyle}>
-      <h2 className='div__h2' >Galleta de la fortuna</h2>
+      <h1 className='div__h1' >Galleta de la fortuna</h1>
       <div className='div__div'>
       <Phrase quateRandom={quateRandom}/>
       <Buttom 

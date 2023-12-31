@@ -1,4 +1,4 @@
-.div {
+.div{
     min-height: 100vh;
     background-size: cover;
     background-position: center;
@@ -8,28 +8,31 @@
     justify-content: center;
     align-items: center;
 }
-.div__h2 {
+.div__h1 {
     text-shadow: 0.2em 0.2em #0002;
+    
 }
 .div__div {
     width: 100%;
     max-width: 25em;
-    background-color: #fff9;
-    padding: 1.5em 2em;
-    border-radius: 0.8em;
+    background: url(https://pa1.narvii.com/6912/f377bcb03c4d46d6de1f9bdc17b126ad06365847r1-320-180_hq.gif);
+    background-color: #f7f6f6;
+    padding: 1em 2em;
+    border: rgb(247, 102, 5) 20px double;    
     box-shadow: 0.3em 0.3em 0.5em #0005;
 }
+
 .div__p {
     line-height: 1.4;
     text-align: center;
-    margin-bottom: 1.5em;
+    margin-bottom: 4em;
+    color: rgb(12, 12, 12);
+    font-family: 'Rowdies', sans-serif;
 }
-
 .div__button {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 1.1rem;
+    margin: 0 auto;
+    font-size: 1rem;
     border: none;
     padding: 0.4em 1.5em;
     border-radius: 0.8em;
@@ -39,6 +42,7 @@
 
     &:hover {
         transform: scale(1.1);
-        box-shadow: 0 0 1.5em rgb(47, 4, 240);
+        box-shadow: 0 0 2em rgb(40, 2, 255);
+        background: rgb(0, 255, 34);
     }
 }
